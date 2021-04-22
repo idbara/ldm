@@ -142,9 +142,9 @@ const otherTemplate = [
 	// {
 	// 	role: 'editMenu'
 	// },
-	// {
-	// 	role: 'viewMenu'
-	// },
+	{
+		role: 'viewMenu'
+	},
 	{
 		role: 'help',
 		submenu: helpSubmenu
