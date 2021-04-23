@@ -1,6 +1,6 @@
 'use strict';
 const path = require('path');
-const {app, Menu, shell} = require('electron');
+const { app, Menu, shell } = require('electron');
 const {
 	is,
 	appMenu,
@@ -31,7 +31,8 @@ if (!is.macos) {
 		},
 		aboutMenuItem({
 			icon: path.join(__dirname, 'static', 'icon.png'),
-			text: 'Puspindes'
+			copyright: 'Copyright © Puspindes',
+			text: 'Aplikasi layanan desa untuk menghimpun data desa yang dikembangkan oleh Dinas Pemberdayaan Masyarakat dan Pemerintahan Desa Kabupaten Pemalang X Puspindes Kabupaten Pemalang'
 		})
 	);
 }
@@ -115,7 +116,7 @@ const otherTemplate = [
 		role: 'fileMenu',
 		submenu: [
 			{
-				label: 'Reload',
+				label: 'Restart',
 				click() {
 					app.relaunch();
 					app.quit();

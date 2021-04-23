@@ -36,7 +36,7 @@ const createMainWindow = async () => {
 		show: false,
 		width: 1024,
 		height: 768,
-		autoHideMenuBar: true,
+		autoHideMenuBar: false,
 		webPreferences: {
 			devTools: false,
 			contextIsolation: true,

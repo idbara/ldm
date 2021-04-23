@@ -3,7 +3,7 @@ const Store = require('electron-store');
 
 module.exports = new Store({
 	defaults: {
-		server: 'http://localhost:5000/pelayanan/ldm/',
+		server: 'https://sidekem.pemalangkab.go.id/pelayanan/ldm/',
 		villageID: '3327092010'
 	}
 });
